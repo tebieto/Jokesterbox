@@ -1,0 +1,207 @@
+body {width : 90%;}
+
+.logo {
+	position:relative;
+	width:100%;
+	height:1%;
+}
+
+a{font-size:50%;}
+a:visited{color:blue}
+small, .error {color: red;}
+
+div #welcome {width:35%;}
+
+
+fieldset, td{
+	
+	border:1px;
+	border-color:green;
+	border-style:solid;
+
+}
+
+fieldset p:hover, .success{color:green;}
+
+ a, .success {
+	
+	font-weight:bold;
+	}
+	
+	table {
+		width: 100%;
+		table-layout:fixed;
+		overflow:hidden;
+		word-wrap:break-word;
+		margin-left:50px;
+	}
+
+fieldset{
+	width:25%;
+	padding:4px;
+	
+}
+
+#index fieldset{
+	width:100%;
+	}
+#index{
+	position:absolute;
+	top:90px;
+	left:600px;
+	}
+
+
+.submit {
+	background-color:green;
+	color:white;
+	font-weight:bold;
+}
+.header {
+	background-color: rgb(60, 100, 60);
+	
+	width:111%;
+	height:35px;
+	
+	color:white;
+	
+	position:relative;
+	
+	left:-7.2px;
+
+}
+#login{
+	position:relative;
+	right:20px;
+	float:right;
+	padding-top:5px;
+}
+
+
+.header a, #title  {
+text-decoration:none;
+
+font-weight: bold;
+
+font-size: large;
+
+margin-left:30px;
+
+}
+.header a{color:rgb(184, 184, 184);}
+
+#clicked {
+	color:white;
+	border-bottom:2px;
+	border-bottom-style:solid;
+	border-bottom-color:white;
+	}
+#menu, #title{
+	padding-top: 8px;
+	float:left;
+	padding-left:550px;
+}
+#menu {padding-left:300px;}
+#cover, .shares, .videos{
+	float:left;
+	margin-top:0.5px;
+	margin-left:335px;
+}
+.note {
+	float:left;
+	margin-left:1px;
+	}
+	
+.share{
+	float:left;
+	margin-left:120px;
+}
+#top{width:100%;}
+
+#top a{
+	text-decoration:none;
+	color:green;
+	}
+
+
+.joke, #o{color:green;}
+.ster{color:red;}
+.box{color:blue}
+.joke, .ster, .box, #o {
+	font-family:calibri;
+	font-size:200%;
+}
+#menu1{display:none;}
+#hidden{display:none;}
+
+.like, .unlike, .lol, .unlol, .author .caption {float:left;}
+
+@media only screen and (max-width: 300px){
+	
+	body {width : 90%;}
+	
+	.header, #logout, #cp{display:none;}
+	
+	#menu1{
+		display:block;
+		margin-top:5px;
+		margin-bottom:5px;
+		padding:5px;
+	}
+	
+	h1{font-size:20px;}
+	
+	textarea{
+		margin-bottom:0px;
+		width:100%;
+		}
+	
+	.joke, .ster, .box, #o {
+	font-family:calibri;
+	font-size:150%;
+	}
+	#top{margin-left:5px;}
+	#pp{
+		width:50px;
+		height:50px;
+	}
+	
+	fieldset{
+	margin-left:1px;
+	width:200px;
+	border:0px;
+	}
+	input{
+		width:100%;
+		margin-left:1px;
+	}
+	#welcome{display:none;}
+	#index{
+		position:absolute;
+		left:0px;
+	}
+	#hidden{display:block;}
+	
+	table, #cover, .shares, .videos{
+		margin-left:1px;
+		width:90%
+	}
+	.share{
+		margin-top:0px;
+		width:28%;
+		}
+	.lol, .unlol{
+		width:18%;
+		font-weight:bold;
+		font-family: rockwell;
+	}
+	
+	.like, .unlike {
+		width:23%;
+		font-weight:bold;
+		font-family: rockwell;
+	}
+		
+	
+	
+}

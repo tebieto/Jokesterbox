@@ -1,0 +1,201 @@
+body {
+
+background-color:rgb(216, 214, 254);
+	font-family:trebuchet MS;
+
+}
+
+
+.joke, #o{color:green;}
+.ster{color:red;}
+.box{color:blue}
+.joke, .ster, .box, #o {
+	font-family:calibri;
+	font-size:130%;
+	font-weight:bold;
+}
+
+button{
+background-color:white;
+color:green;
+font-size:100%;
+font-family:trebuchet MS;
+font-weight:bold;
+}
+.error, small, .delete, .unlike, .unfollow{color:red;}
+.cdelete{
+	font-weight:normal;
+	color:red;
+}
+.success{
+	color:green;
+	font-weight:bold;
+}
+.endorsed, .unlol{color:blue;}
+
+#top a {text-decoration:none;}
+
+fieldset{
+	border-style:solid;
+	border-color:white;
+	width:30%;
+	}
+textarea{width:70%;}
+input, select{
+
+	margin-top:1px;
+	width:70%;
+	height:30px;
+	font-weight:bold;
+	}
+
+.submit {
+	width:20%;
+	height:30px;
+	}
+#top input, .shares input{width:50%}
+#top .submit, #sp{width:10%;}
+.cover input{width:20%}
+.share, .video {
+	
+	background-color:white;
+	margin-top:0.1px;
+	padding:10px;
+	border-bottom:solid 1px;
+	border-bottom-color:grey;
+	width:60%;
+}
+#cp{
+width:60%;
+height:300px;
+display:none;
+}
+
+#pcp{diaplay:none;}
+
+#pp{
+	width:200px;
+	height:200px;
+	}
+
+
+video{
+	width:100%;
+	height:20%;
+	}
+.note{width:60%;}
+.header a {
+text-decoration:none;
+
+font-weight: bold;
+
+font-size: 55%;
+
+margin-left:2%;
+
+}
+#menu{
+	margin-top:20px;
+	margin-bottom:30px;
+	}
+
+#clicked {
+	color:white;
+	border-bottom:2px;
+	border-bottom-style:solid;
+	border-bottom-color:white;
+	padding:4px;
+	}
+
+@media only screen and (min-width: 300px){
+.header a{
+
+font-size: 95%;
+
+}
+
+.video a, .people a{
+	font-size:large;
+	font-weight:bold;
+	padding:5px;
+
+}
+}
+@media only screen and (max-width: 1000px){
+	
+fieldset{
+	width:50%;
+	}
+
+input, select{width:70%;}
+
+.submit {width:30%;}	
+
+#top .submit, #sp{width:15%;}
+.cover input{width:50%}	
+.share, .video, .note {
+	width:95%;
+}
+#cp{width:95%}
+	
+}
+
+@media only screen and (max-width: 500px){
+	
+fieldset{
+	width:80%;
+	}
+textarea{width:90%;}
+input, select{width:90%;}
+
+.submit {width:30%;}
+
+#top .submit, #sp{width:25%;}
+	
+.share, .video, .note {
+	width:96%;
+	margin-left:-3px;
+}
+
+video{
+	width:100%;
+	height:40%;
+	}
+
+#pp{
+	width:40%;
+	height:15%;
+	}	
+}
+
+@media only screen and (max-width: 400px){
+	
+fieldset{
+	width:85%;
+	}
+
+input, select{
+	width:90%;
+	height:20px;
+	}
+
+.submit {width:45%;}	
+#top .submit, #sp{width:35%;}	
+.cover input{width:60%}
+.share, .video, .note {width:96%;}
+#cp{
+	width:90%;
+	height:30%;
+	}
+#pp{
+	width:40%;
+	height:110px;
+	}
+	
+}
+
+@media only screen and (max-width: 350px){
+
+.share, .video, .note {width:90%;}
+
+}
